@@ -1,0 +1,32 @@
+.my-plugin-ribbon-class {
+  color: red;
+}
+
+.henni-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.henni-radio-option {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.henni-radio-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.henni-radio-label > input[type="radio"] {
+  margin: 0;
+}
+
+.henni-radio-help {
+  margin-left: 24px;
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
